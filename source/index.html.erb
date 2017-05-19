@@ -23,6 +23,7 @@ title: ADD-WEB
       <div class="carousel-caption">
         <h1>Add-Web : </h1>
     <p> L'AGENCE DE TOUS VOS PROJETS! <br> Vous avez un projet web ? La WebAgency vous aide à le réaliser! </p>
+
       </div>
     </div>
     <div class="item">
@@ -50,43 +51,34 @@ title: ADD-WEB
 <!-- fin carrousel -->
 
 <!-- banniere nos service -->
-<div class="container-fluid">
-<section class="bg-silver padded-light">
-;
+<section class="bg-silver padded-light banner ">
+<div class="container-fluid ">
 
-.  <h2 class="text-center">Nos service</h2>
-  <p>
-  Communication, marketing, graphisme, ergonomie, création de sites internet, développement web, référencement, application, hébergement et infogérance de serveurs, noms de domaines... Notre agence vous conseille et vous accompagne de A à Z dans tous vos projets digitaux.
-  </p>
-   </div> </div>
+  <h2 class="text-center">Nos service</h2>
+  <p>Communication, marketing, graphisme, ergonomie, création de sites internet, développement web, référencement, application, hébergement et infogérance de serveurs, noms de domaines... Notre agence vous conseille et vous accompagne de A à Z dans tous vos projets digitaux.</p>
 
-   <div class="row bg-blue">
+</section>
+
+<section>
+   <div class="row bg-white">
     <div class="col-md-offset-1 col-md-4 padded-light">
    <%= image_tag 'main-feature.png' %>
 </div>
-<div class="col-md-offset-1 col-md-6 padded-light">
-<h2>UX design</h2>
-<p>Cohérence du design,bon référencement,nos sites sont <br/>de plus en facile à utiliser</p>
 
-  <h2>UI design</h2>
-<p>Interfaces fonctionelles et <br>intuitives sont bien notre premiére préoccupation .</p>
+<div class="col-md-offset-1 col-md-4 padded-light ">
 
-  <h2>SEO</h2>
-<p>La WebAgency améliore le référencement de votre page web grace à une connaissance accrue des robots d'indexation</p>
+<% data.service.each do |service| %>
+<aside class="cards-service">
+ <h2> <%= service.title %></h2>
+ <p class="border-cards"></p>
+ <p> <%= service.content %></p>
+</aside>
+<% end %>
 
-  <h2>lorem ipsum</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam possimus eius perferendis assumenda beatae quo amet minus fugit, voluptas! Sint dicta delectus possimus provident, dolor, voluptatibus qui doloribus mollitia atque.</p>
-
-  <h2>lorem ipsum</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam possimus eius perferendis assumenda beatae quo amet minus fugit, voluptas! Sint dicta delectus possimus provident, dolor, voluptatibus qui doloribus mollitia atque.</p>
-
-<h2>lorem ipsum</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam possimus eius perferendis assumenda beatae quo amet minus fugit, voluptas! Sint dicta delectus possimus provident, dolor, voluptatibus qui doloribus mollitia atque.</p>
-
-
-  </div>
-</section>
 </div>
+</div>
+</div>
+</section>
 <!-- fin banniere nos service -->
 
 <!-- div service -->
