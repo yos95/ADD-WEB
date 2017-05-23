@@ -3,9 +3,25 @@ title: ADD-WEB
 ---
 
 
+<div class="container-fluid bg-green">
+  <div class="row">
+    <div class="visible-xs col-xs-12">
+      <div class=" padded-light ">
+        <h2 class="text-center">Nous réalisons votre site sur mesure</h2>
 
-<!-- carrousel -->
+<div class="col-xs-12 col-md-6 padded-light text-center">
+<a class="btn btn-warning " data-toggle="modal" href='#modal-id'>Nous contacter pour un devis</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
 
+
+ <!-- carrousel -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="hidden-xs ">
 
 <div id="carousel-example-generic" class="carousel slide " data-ride="carousel">
   Indicators
@@ -47,26 +63,33 @@ title: ADD-WEB
 </div>
 </div>
 
+</div></div></div>
+ <!-- fin carousel -->
 
-<!-- fin carrousel -->
+ <!-- section nos service -->
+ <!-- banner nos service -->
+ <div class="container-fluid">
+ <div class="row">
+  <div class="col-xs-12 col-md-12">
 
-<!-- banniere nos service -->
 <section class="bg-silver padded-light banner ">
-<div class="container-fluid ">
-
   <h2 class="text-center">Nos service</h2>
   <p>Communication, marketing, graphisme, ergonomie, création de sites internet, développement web, référencement, application, hébergement et infogérance de serveurs, noms de domaines... Notre agence vous conseille et vous accompagne de A à Z dans tous vos projets digitaux.</p>
-
 </section>
 
-<section>
-   <div class="row bg-white">
-    <div class="col-md-offset-1 col-md-4 padded-light">
-   <%= image_tag 'main-feature.png' %>
-</div>
+    </div></div></div>
+ <!-- fin banner nos service -->
+ <!-- div card -->
+<div class="container-fluid bg-white">
+ <div class="row">
+<div class="col-xs-12 col-md-offset-1 col-md-5">
 
-<div class="col-md-offset-1 col-md-4 padded-light ">
 
+ <div class=" padded-light">
+ <img  src="https://unsplash.it/300/200/?random" alt="">
+</div></div>
+
+<div class="col-xs-12 col-md-6">
 <% data.service.each do |service| %>
 <aside class="cards-service">
  <h2> <%= service.title %></h2>
@@ -76,71 +99,54 @@ title: ADD-WEB
 <% end %>
 
 </div>
-</div>
-</div>
-</section>
-<!-- fin banniere nos service -->
+ </div></div></div>
+     <!-- fin div cards -->
+     <!-- fin section nos service -->
 
-<!-- div service -->
+     <!-- section nos realisation -->
+     <!-- banner nos realisation -->
 
-  <section class="bg-silver padded-light">
+ <div class="container-fluid bg-silver">
+ <div class="row">
+<div class="col-xs-12 col-md-12">
+  <section class=" padded-light">
 
   <h2 class="text-center">Nos realisation</h2>
+  </section>
+</div></div></div>
 
-</section>
-<div class="container-fluid bg-green text-center ">
-<section class="">
-     <div class="row ">
 
-    <div class=" col-md-offset-1 col-md-3 padded-light ">
+ <!-- fin banner nos realisation -->
+<!--  div service -->
+ <div class="container-fluid bg-green text-center padded-light">
+ <div class="row">
+    <div class="col-xs-12s col-md-12">
+    <section clas=" ">
+
   <img  src="https://unsplash.it/300/200/?random" alt="">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-  </div>
 
-  <div class="col-md-3 padded-light ">
-  <img  src="https://unsplash.it/300/200/?random" alt="">
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-  </div>
 
-  <div class=" col-md-3 padded-light ">
-  <img  src="https://unsplash.it/300/200/?random" alt="">
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-  </div>
-<div class="col-md-offset-1"></div>
-</div>
+   </section>
+    </div></div></div>
 
-<div class="row">
 
-  <div class="col-md-offset-1 col-md-3 padded-light  ">
-  <img  src="https://unsplash.it/300/200/?random" alt="">
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-  </div>
 
-<div class=" col-md-3 padded-light ">
-  <img  src="https://unsplash.it/300/200/?random" alt="">
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-  </div>
 
-  <div class=" col-md-3 padded-light ">
-  <img  src="https://unsplash.it/300/200/?random" alt="">
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-  </div>
-
-</div>
-<div class="col-md-offset-1"></div>
-  </section>
-  </div></div>
-<!-- fin div service -->
-
-<!-- google maps -->
-<section class="bg-silver padded-light">
+<!--      fin div service -->
+<!--      fin section nos realisation -->
+<!--     section google maps -->
+ <div class="container-fluid bg-silver padded-light">
+ <div class="row">
+    <div class="col-xs-12 col-md-12">
+<section class="">
  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8779606540643!2d2.2935673150492137!3d48.860537508510596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe113191b01%3A0x6f2f228e367a5caf!2sTour+Eiffel!5e0!3m2!1sfr!2sfr!4v1485700644565" width="100%" height="400x0" frameborder="0" style="border:0" allowfullscreen></iframe>
 </section>
 
-
-<!-- fin google maps -->
-
-
+    </div></div></div>
+     <!-- fin section  google maps -->
+  </div>
+</div>
 
 
 
