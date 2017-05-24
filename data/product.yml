@@ -1,0 +1,16 @@
+- title : Wordpress
+  content: Votre site Wordpress sous 24h
+  image: wordpress.png
+  price: A partir de 600 euro
+- title : Site sur mesure
+  content: Votre site sur mesure avec les technologie les plus recente exemple  Bootstraap , Ruby on Rails , Php , Mysql......
+  image: wordpress.png
+  price: A partir de 1000 euro
+- title : Application Web
+  content: votre application pour ameliorer votre productiviter comme une apllication de creation de devis automatiser .
+  image: wordpress.png
+  price: A partir de 700 euro
+- title : Maintenance
+  content: La maintenance de votre site Wordpress
+  image: wordpress.png
+  price: A partir de 150 euro
