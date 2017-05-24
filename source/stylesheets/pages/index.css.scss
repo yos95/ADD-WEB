@@ -16,11 +16,22 @@
 }
 .banner
 {
-/*   background-image: url(../images/bg5.jpg) ;
-  color: white;
-  padding: 35px;
+
+background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(../images/bg1.jpg);
+color: white;
+padding: 17em;
 background-repeat:no-repeat;
-background-size: cover; */
+background-size: cover;
 
 }
 
+.banner-mobile
+{
+
+background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(../images/bg1.jpg);
+color: white;
+padding: 5em;
+background-repeat:no-repeat;
+background-size: cover;
+
+}
