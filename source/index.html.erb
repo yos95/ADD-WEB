@@ -56,7 +56,7 @@ title: Yoadan
  <!-- div card -->
 <div class="container-fluid bg-white  padded-light">
  <div class="row">
-<div class="col-xs-12 col-md-offset-1 col-md-5">
+<div class="col-xs-12 col-md-offset-1 col-sm-6 col-md-5">
 <h2 class="text-center">Nos service</h2>
   <p>Communication, marketing, graphisme, ergonomie, création de sites internet, développement web, référencement, application, hébergement et infogérance de serveurs, noms de domaines... Notre agence vous conseille et vous accompagne de A à Z dans tous vos projets digitaux.</p>
 
@@ -65,7 +65,7 @@ title: Yoadan
  <img  src="https://unsplash.it/300/200/?random" alt="">
 </div></div>
 
-<div class="col-xs-12 col-md-6">
+<div class="col-xs-12 col-sm-6 col-md-6">
 <% data.service.each do |service| %>
 <aside class="cards-service">
  <h2> <%= service.title %></h2>
@@ -90,7 +90,7 @@ title: Yoadan
 
 
 <% data.product.each do |product| %>
-<div class="col-md-3  ">
+<div class="col-md-3 col-sm-6 ">
 <aside class="cards-service">
  <h2> <%= product.title %></h2>
  <p class="border-cards"></p>
@@ -118,7 +118,7 @@ title: Yoadan
 
 
 <% data.realisation.each do |realisation| %>
-<div class="col-md-4 ">
+<div class="col-md-4  col-sm-6">
 <aside class="cards-service">
  <h2> <%= realisation.categorie %></h2>
  <br>
