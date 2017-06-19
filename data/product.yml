@@ -1,16 +1,32 @@
+- title : Site sur mesure
+  content: Avec les technologie ,Bootstrap , Ruby on Rails,
+  image: wordpress.png
+
+- title : Referencement
+  content: votre site en premier sur google
+  image: wordpress.png
+
 - title : Wordpress
   content: Votre site Wordpress sous 24h !!
   image: wordpress.png
 
-- title : Site sur mesure
-  content: Votre site sur mesure avec les technologie les plus recente exemple  Bootstraap , Ruby on Rails , Php , Mysql......
+- title : Maintenance
+  content: La maintenance de votre site Wordpress
   image: wordpress.png
 
 - title : Application Web
-  content: votre application pour ameliorer votre productiviter comme une apllication de creation de devis automatiser .
+  content: Augmenter votre productiviter .
   image: wordpress.png
 
-- title : Maintenance
-  content: La maintenance de votre site Wordpress
+- title : Campagne publiciter
+  content: Améliorer votre visibiliter avec Adword
+  image: wordpress.png
+
+- title : Charte graphique
+  content: Creation de logo , mockup de vos sites web
+  image: wordpress.png
+
+- title :  Conseil en entreprise
+  content: achat de materiels informatique
   image: wordpress.png
 

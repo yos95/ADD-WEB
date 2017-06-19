@@ -94,16 +94,15 @@ title: Yoadan
 
 
 <% data.product.each do |product| %>
-<div class="col-md-3 col-sm-6 ">
-<aside class="cards-service">
- <h2> <%= product.title %></h2>
- <p class="border-cards"></p>
- <p> <%= product.content %></p>
-    <img  src="https://unsplash.it/200" class="img-fluid" alt="">
+<div class="col-xs-12 col-md-3 col-sm-6 bg-silver ">
+<br><br>
+  <img  src="https://unsplash.it/80/100" class="img-fluid" alt="">
     <br><br>
+  <h3> <%= product.title %></h3>
+ <p> <%= product.content %></p>
    <p> <%= product.price %></p>
     </div>
-</aside>
+
 <% end %>
     </div>
   </div>
