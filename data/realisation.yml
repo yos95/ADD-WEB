@@ -1,9 +1,6 @@
 - categorie : Site sur mesure
-  title: <strong>Travel Agency</strong>
-  image:
-- categorie : Wordpress
-  title: <strong>Fleuriste</strong>
-  image:
+  title: <strong><a href="http://gmahonline.com/">G.M.A.H</a></strong>
+  image: images/miniature5.jpeg
 - categorie : Application Web
-  title: <strong><a href="http://www.add-web.fr/">Myfacture</a></strong>
-  image:
+  title: <strong><a href="http://www.add-web.fr/">MyFacture</a></strong>
+  image: images/miniature4.jpeg

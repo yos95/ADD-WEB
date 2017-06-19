@@ -1,6 +1,37 @@
-- title: Augmentait votre presence web
-  content: Le site vitrine dont la vocation première est de présenter votre activité, vous permet à la fois de vous rendre visible sur le web tout en générant des contacts avec vos clients et prospects.
-- title: Rapiditer
-  content: Interfaces fonctionelles et intuitives sont bien notre premiére préoccupation .
-- title: SEO
-  content: La WebAgency améliore le référencement de votre page web grace à une connaissance accrue des robots d'indexation
+# - title: Augmentait votre presence web
+#   image: images/icone3.png
+#   content: Le site vitrine dont la vocation première est de présenter votre activité, vous permet à la fois de vous rendre visible sur le web tout en générant des contacts avec vos clients et prospects.
+# - title: Rapiditer
+#   image: images/icone1.png
+#   content: Interfaces fonctionelles et intuitives sont bien notre premiére préoccupation .
+- title : Site sur mesure
+  content: Avec les technologie ,Bootstrap , Ruby on Rails,
+  image: images/icone5.png
+- title : Referencement
+  content: votre site en premier sur google
+  image: images/icone2.png
+
+- title : Wordpress
+  content: Votre site Wordpress sous 24h !!
+  image: images/icone10.png
+
+- title : Maintenance
+  content: La maintenance de votre site Wordpress
+  image: images/icone4.png
+
+- title : Application Web
+  content: Augmenter votre productiviter .
+  image: images/icone8.png
+
+- title : publiciter
+  content: Améliorer votre visibiliter avec Adword
+  image: images/icone11.png
+
+- title : Charte graphique
+  content: Creation de logo , mockup de vos sites web
+  image: images/icone12.png
+
+- title :  Conseil
+  content: achat de materiels informatique
+  image: images/icone9.png
+
