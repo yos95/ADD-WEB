@@ -7,10 +7,10 @@ title: Yoadan
   <div class="row">
     <div class="visible-xs col-xs-12 banner-mobile text-center">
 
-<div class="slideDown">
+<div class="animated slideInDown">
         <h1 style="font-style: italic">Yoadan </h1>
     <p > Vous avez un projet web ? La WebAgency vous aide à le réaliser! </p>
-    <a class="btn btn-warning text-center" data-toggle="modal" href='#modal-id'>Votre devis gratuit</a>
+    <a class="btn btn-primary text-center" data-toggle="modal" href='#modal-id'>Votre devis gratuit</a>
 
 </div>
 
@@ -23,11 +23,10 @@ title: Yoadan
   <div class="row">
     <div class="col-md-12 hidden-xs banner ">
 
-<div class="slideDown">
-        <h1 style="font-style: italic">Yoadan </h1>
+<div class="animated slideInDown">
+        <h1  style="font-style: italic">Yoadan </h1>
     <p > Vous avez un projet web ? La WebAgency vous aide à le réaliser! </p>
-    <a class="btn btn-warning text-center" data-toggle="modal" href='#modal-id'>Votre devis gratuit</a>
-
+    <a class="btn btn-primary text-center" data-toggle="modal" href='#modal-id'>Votre devis gratuit</a>
 </div>
     </div>
   </div>
@@ -38,7 +37,7 @@ title: Yoadan
 <div class="container-fluid bg-orange-light padded-light text-center ">
   <div class="row">
     <div class="col-md-12">
- <h2> Qui somme nous ? </h2>
+ <h2> Qui sommes-nous ? </h2>
 <br><br>
 <% data.presentation.each do |presentation| %>
 
@@ -59,15 +58,15 @@ title: Yoadan
 <div class="container-fluid bg-white  padded-light " id="Nos-service">
  <div class="row">
 <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-<h2 class="text-center">Nos service</h2>
-<%= image_tag 'main-feature.png' %>
+<h2 class="text-center">Nos services</h2>
+<%= image_tag 'main-feature.png' , class:"img" %>
   <h3>Communication, marketing, graphisme, ergonomie, création de sites internet, développement web, référencement, application, hébergement et infogérance de serveurs, noms de domaines... <br> <strong> Notre agence vous conseille et vous accompagne de A à Z dans tous vos projets digitaux. </strong></h3>
 
 
 </div>
 </div></div></div>
 </div>
-<div class="container-fluid bg-blue padded-light " id="Nos-service">
+<div class="container-fluid bg-blue padded-light" id="Nos-service">
  <div class="row">
 <h2 class="text-center">Nos produits</h2>
 <% data.service.each do |service| %>
@@ -92,7 +91,7 @@ title: Yoadan
  <div class="row ">
 
   <div class="col-md-12">
-    <h2>Nos realisation </h2>
+    <h2>Nos réalisations</h2>
      <br><br>
 </div>
 

@@ -9,6 +9,7 @@
     <!-- For Bootstrap responsiveness -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="icon" type="image/jpg" href="../images/logo2-yoadan.jpg" width="30" height="30" />
 <!-- <meta property="og:title" content="Yoadan" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.yoadan.com/" />
@@ -30,7 +31,7 @@
 <link rel="publisher" href="https://plus.google.com/[Google+_Page_Profile]"/> -->
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Add-Web" %></title>
+    <title><%= current_page.data.title || "Yoadan" %></title>
 
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
@@ -61,7 +62,7 @@
 
 
           <% link_to "/index.html", class: "navbar-brand" do %>
-            <%= image_tag 'main-feature.png' %>
+            <%= image_tag 'logo-infinity.png' %>
 
           <% end %>
 
@@ -86,7 +87,7 @@
             </li>
             <li>
               <% link_to "#Nos-realisation" do %>
-                <i class="fa">Nos Réalisation</i>
+                <i class="fa">Nos Réalisations</i>
               <% end %>
             </li>
               <li>
@@ -101,24 +102,26 @@
     </nav>
 
     <!-- modal -->
-<div class="modal fade" id="modal-id">
-  <div class="modal-dialog">
-    <div class="modal-content">
+
+<div class="modal fade " id="modal-id">
+  <div class="modal-dialog ">
+    <div class="modal-content bg-silver-light ">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 
 
       </div>
-      <div class="modal-body">
-        <iframe height="493" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://yossef.wufoo.com/embed/m5o6vbj0hokkst/"><a href="https://yossef.wufoo.com/forms/m5o6vbj0hokkst/"></a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"><span class="notranslate"></span></div>
+      <div class="modal-body ">
+        <iframe  height="493" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://yossef.wufoo.com/embed/m5o6vbj0hokkst/"><a href="https://yossef.wufoo.com/forms/m5o6vbj0hokkst/"></a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"><span class="notranslate"></span></div>
       </div>
       <div class="modal-footer">
 
       </div>
     </div>
   </div>
-  </div>
+  </div></div>
 <!-- fin modal -->
+
     <%= yield %>
 <footer class="footer">
   <ul class="list-inline text-center ">
@@ -143,7 +146,7 @@
     </a>
     </li>
   </ul>
-  <p class="text-center">Yoadan est une agence de developpement web sur paris coypright 2017  <strong>By Yossef Aboukrat</strong></p>
+  <p class="text-center">Yoadan est une agence de développement web sur Paris Copyright 2017 <strong>By Yossef Aboukrat</strong></p>
 </footer>
 
   </body>

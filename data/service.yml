@@ -5,10 +5,10 @@
 #   image: images/icone1.png
 #   content: Interfaces fonctionelles et intuitives sont bien notre premiére préoccupation .
 - title : Site sur mesure
-  content: Avec les technologie ,Bootstrap , Ruby on Rails,
+  content: Avec les technologies, Bootstrap, Ruby on Rails,PhP,Mysql.
   image: images/icone5.png
-- title : Referencement
-  content: votre site en premier sur google
+- title : Référencement
+  content: Propulser votre site en premier sur google.
   image: images/icone2.png
 
 - title : Wordpress
@@ -20,18 +20,18 @@
   image: images/icone4.png
 
 - title : Application Web
-  content: Augmenter votre productiviter .
+  content: Augmenter votre productivité.
   image: images/icone8.png
 
-- title : publiciter
-  content: Améliorer votre visibiliter avec Adword
+- title : Publiciter
+  content: Améliorer votre visibilité avec Adword
   image: images/icone11.png
 
 - title : Charte graphique
-  content: Creation de logo , mockup de vos sites web
+  content: Création de logo, et mockup de vos sites web
   image: images/icone12.png
 
 - title :  Conseil
-  content: achat de materiels informatique
+  content: Achat de matériels informatique
   image: images/icone9.png
 

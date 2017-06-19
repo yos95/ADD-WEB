@@ -11,6 +11,11 @@
   height : 300px;
 }
 
+.form
+{
+  border-radius:25px;
+
+}
 .cards-service2
 {
   border: 1px solid #DDDDDD ;
@@ -30,7 +35,7 @@
 .banner
 {
 
-background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(../images/bg1.jpg);
+background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 99%), url(../images/bg111.jpg);
 color: white;
 padding: 17em;
 background-repeat:no-repeat;
@@ -41,10 +46,15 @@ background-size: cover;
 .banner-mobile
 {
 
-background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(../images/bg1.jpg);
+background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 99%), url(../images/bg111.jpg);
 color: white;
 padding: 5em;
 background-repeat:no-repeat;
 background-size: cover;
 
+}
+.img
+{
+  whidth:10em;
+  height:5em;
 }
