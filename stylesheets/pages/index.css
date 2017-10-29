@@ -1,0 +1,74 @@
+/* line 1, /mnt/c/MyData/code/Travail/Yoadan.com/source/stylesheets/pages/index.css.scss */
+.front {
+  padding: 2em; }
+
+/* line 7, /mnt/c/MyData/code/Travail/Yoadan.com/source/stylesheets/pages/index.css.scss */
+.card-promo {
+  height: 10em;
+  width: 15em; }
+
+/* line 13, /mnt/c/MyData/code/Travail/Yoadan.com/source/stylesheets/pages/index.css.scss */
+.firt-text {
+  font-size: 1.8em; }
+
+/* line 16, /mnt/c/MyData/code/Travail/Yoadan.com/source/stylesheets/pages/index.css.scss */
+.barre {
+  font-size: 28px;
+  color: ecf0f1; }
+
+/* line 21, /mnt/c/MyData/code/Travail/Yoadan.com/source/stylesheets/pages/index.css.scss */
+.cards-service {
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin: 15px;
+  whidth: 100px;
+  height: 300px; }
+
+/* line 33, /mnt/c/MyData/code/Travail/Yoadan.com/source/stylesheets/pages/index.css.scss */
+.form {
+  border-radius: 25px; }
+
+/* line 38, /mnt/c/MyData/code/Travail/Yoadan.com/source/stylesheets/pages/index.css.scss */
+.cards-service2 {
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin: 15px;
+  whidth: 100px;
+  height: 450px; }
+
+/* line 49, /mnt/c/MyData/code/Travail/Yoadan.com/source/stylesheets/pages/index.css.scss */
+.border-cards {
+  padding: 6px;
+  border-bottom: 1px solid Gainsboro; }
+
+/* line 54, /mnt/c/MyData/code/Travail/Yoadan.com/source/stylesheets/pages/index.css.scss */
+.banner {
+  background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 99%), url(../images/bg111.jpg);
+  color: white;
+  padding: 17em;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 67, /mnt/c/MyData/code/Travail/Yoadan.com/source/stylesheets/pages/index.css.scss */
+.banner-mobile {
+  background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 99%), url(../images/bg111.jpg);
+  color: white;
+  padding: 5em;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 77, /mnt/c/MyData/code/Travail/Yoadan.com/source/stylesheets/pages/index.css.scss */
+.img {
+  whidth: 10em;
+  height: 5em; }
+
+/* line 82, /mnt/c/MyData/code/Travail/Yoadan.com/source/stylesheets/pages/index.css.scss */
+.img-world {
+  whidth: 25em;
+  height: 20em; }
